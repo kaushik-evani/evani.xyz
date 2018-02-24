@@ -21,7 +21,6 @@ $(function(){
 
     function waitRandAndBlink() {
         var rand = Math.round(Math.random() * 10) * 500
-        console.log(rand);
         setTimeout(blink, rand);
     }
 
